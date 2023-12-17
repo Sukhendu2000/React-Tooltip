@@ -1,0 +1,106 @@
+body {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 97%);
+}
+
+.App{
+  width: 95vw;
+  height: 90vh;
+}
+
+/* Navbar */
+
+.btn-position{
+  width: 30%;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn {
+  height: 60%;
+  width: 20%;
+  padding: 5px;
+  outline: none!important;
+}
+
+/* button container */
+
+#button-container{
+  width: 20%;
+  height: 10%;
+  margin-left: 39.5%;
+  margin-top: 15%;
+}
+
+.hover-btn{
+  height: 100%;
+  width: 100%;
+  font-size: 1.5rem;
+
+}
+
+/* top position hover */
+.top{
+  height: 50%;
+  width: 60%;
+  margin-top: -50%;
+  margin-left: 15%;
+  padding: 6px 10px 20px 10px;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%);
+  
+}
+
+/* right position hover */
+.right{
+    height: 50%;
+    width: 70%;
+    margin-top:-22%;
+    margin-left: 105%;
+    padding: 8px 10px 20px 10px;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+ /* down position hover */
+.down{
+  height: 50%;
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 20%;
+  padding: 8px 10px 20px 10px;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%);
+}
+
+/* left position hover */
+.left{
+  height: 50%;
+  width: 70%;
+  margin-top:-22%;
+  margin-left: -85%;
+  padding: 8px 10px 20px 10px;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%);
+}
+
+.active{
+  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+  color: #fff;
+}
